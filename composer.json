@@ -1,0 +1,38 @@
+{
+	"name": "jalemany1/tie_rating",
+	"version": "1.0.0",
+	"type": "elgg-plugin",
+	"description": "Tie rating for Elgg",
+	"homepage": "http://gti-ia.upv.es",
+	"keywords": [
+		"elgg", "plugin", "rate", "friendships"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Jose Alemany Bordera",
+			"email": "jalemany1@dsic.upv.es"
+		}
+	],
+	"repositories": [
+		{
+            "package": {
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/gjunge/rateit.js/archive/1.1.1.zip"
+                },
+                "name": "gjunge/jquery.rateit",
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "version": "1.1.1"
+            },
+            "type": "package"
+        }
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "~1.0",
+		"gjunge/jquery.rateit": "~1.1"
+	}
+}
