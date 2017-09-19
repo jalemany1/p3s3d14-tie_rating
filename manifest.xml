@@ -3,7 +3,7 @@
 
 	<name>Tie Rating</name>
 	<id>tie_rating</id>
-	<version type="dist">1.0</version>
+	<version type="dist">1.0.0</version>
 
 	<description>Feature to rate your friendship ties.</description>
 
