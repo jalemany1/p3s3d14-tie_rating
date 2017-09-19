@@ -1,4 +1,4 @@
-	<?php
+<?php
 
 /**
  * Star rating input view - an HTML tag back with a hidden input
