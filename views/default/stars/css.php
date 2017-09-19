@@ -26,6 +26,7 @@ $del_url = elgg_normalize_url('mod/elgg_stars/vendors/rateit/delete.gif');
         display: -moz-inline-box;
         display: inline-block;
         background: url(<?php echo $star_url ?>);
+        width: 179px;
         height: 16px;
         outline: none;
     }
